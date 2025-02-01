@@ -4,7 +4,14 @@
 Analysis with GLM and GAM modeling, with and without interactions, then compare with AIC and BIC
 <br />
 <br />
-The dataset is beink from my professor at LMU, already cleaned (withou missing values), dim: 3000 x 8, independent variable is "beink" (gross income in the last month), the other 7 are: "groesse" (height in cm), "alter"(age in years), "dauer" (length of service in years), "verh"(if married (1) or not(0)), "geschl" (sex: male(1), female(0)),  "deutsch"(if nationality is german (1), not (0)), "abitur" (if graduated german high school(1) , no(0)).
+The dataset is beink from my professor at LMU, already cleaned (withou missing values), dim: 3000 x 8, independent variable is "beink" (gross income in the last month), the other 7 are: 
+<br />+ "groesse" (height in cm) 
+<br />+ "alter"(age in years) 
+<br />+ "dauer" (length of service in years) 
+<br />+ "verh"(if married(1) or not(0)) 
+<br />+ "geschl" (sex: male(1), female(0)) 
+<br />+ "deutsch"(if nationality is german(1), not (0)) 
+<br />+ "abitur" (if graduated german high school(1) , no(0)).
 <br />
 <br />
 Goal is to understand the correlation between each covariates and the independent variable "beink", so to study which factor play a role in effecting the income of one person, and in which way.
